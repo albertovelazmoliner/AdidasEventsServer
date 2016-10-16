@@ -6,6 +6,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
  
 app.get('/api/event', function(req, res) {
+  console.log("Request for event")
   res.json({name : "NEW YORK CITY MARATHON", image : "http://www.scottrunsamerica.com/wp-content/uploads/2015/11/Verrazano.jpg"})
 })
 
