@@ -26,5 +26,6 @@ app.post('/api/runner', function(req, res) {
     res.send({message : "Registration has been completed successfully.\nDo you want to register someone else?"});
 });
 
-app.listen(port, function() {
-    console.log('Adidas Server app is running on http://localhost:' + port)
+app.listen(port, function() { 
+	console.log('Adidas Server app is running on http://localhost:' + port)
+})
